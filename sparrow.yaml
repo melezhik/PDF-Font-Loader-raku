@@ -61,9 +61,9 @@ tasks:
           echo "Linux version: $os"
 
           curl -sL "https://rakudo.org/dl/rakudo/rakudo-moar-${version}-linux-x86_64-gcc.tar.gz" \
-          -o rakudo-moar-$version-01-linux-x86_64-gcc.tar.gz
-          tar -xzf rakudo-moar-$version-01-linux-x86_64-gcc.tar.gz          
-          eval "$(rakudo-moar-$version-01-linux-x86_64-gcc/scripts/set-env.sh)"
+          -o rakudo-moar-$version-linux-x86_64-gcc.tar.gz
+          tar -xzf rakudo-moar-$version-linux-x86_64-gcc.tar.gz          
+          eval "$(rakudo-moar-$version-linux-x86_64-gcc/scripts/set-env.sh)"
 
           which raku
           which zef
